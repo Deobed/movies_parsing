@@ -1,3 +1,5 @@
+require 'json'
+
 class RatingService
   def initialize(movies)
     @movies = movies

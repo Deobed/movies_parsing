@@ -1,5 +1,3 @@
-require 'json'
-
 require_relative 'parser'
 require_relative 'rating'
 
