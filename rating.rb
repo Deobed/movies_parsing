@@ -5,7 +5,7 @@ class RatingService
     @movies = movies
   end
 
-  #Сортировка полученных фильмов по количеству сеансов
+  # Сортировка полученных фильмов по количеству сеансов
   def sort_by_movie_sessions
     @movies.sort_by(&:last)
            .reverse

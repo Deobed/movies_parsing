@@ -7,7 +7,7 @@ class ParseService
     @movies = {}
   end
 
-  #Получение списка фильмов из афиши
+  # Получение списка фильмов из афиши
   def get_movies
     parse_page = Nokogiri::HTML(URI.open(@url))
     parse_page.css('.movie').each do |movie_area|
